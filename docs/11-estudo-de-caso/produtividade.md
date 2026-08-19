@@ -27,6 +27,14 @@ Note a notável convergência entre os resultados de tamanho e produtividade de 
 4. Como utilizar o dado de 9.43 h/PF obtido neste projeto para orçar um novo sistema de 100 PF?
 5. Qual a importância de registrar o esforço real por meio de ferramentas de timesheet?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Taxa de esforço real:** $9,43 \text{ horas por Ponto de Função}$ ($500 \text{ horas} / 53 \text{ PF}$).
+    2. **Convergência APF vs. UCP:** Porque a especificação de casos de uso manteve equivalência direta com o escopo de dados e transações do IFPUG, sem distorções de complexidade ambiental desproporcionais.
+    3. **Produtividade em SLOC/hora:** $20 \text{ SLOC/hora}$ ($10.000 \text{ SLOC} / 500 \text{ horas}$).
+    4. **Orçamento de novo sistema (100 PF):**
+       $$\text{Esforço Estimado} = 100\text{ PF} \times 9,43\text{ h/PF} = 943\text{ horas-pessoa}$$
+    5. **Importância do timesheet:** Fornece o histórico empírico real de horas consumidas, permitindo calcular taxas de produtividade reais da organização para calibrar orçamentos futuros.
+
 ---
 
 ## 📚 Referências utilizadas

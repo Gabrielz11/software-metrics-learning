@@ -59,6 +59,13 @@ $$\text{Tamanho Funcional Total} = 26\text{ PF (Dados)} + 27\text{ PF (Transaç�
 4. Qual a diferença de complexidade entre `Consultar Livro` (CE) e `Relatório de Atrasos` (SE)?
 5. Como os 53 PF obtidos nesta contagem auxiliam no orçamento do projeto?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Composição do Sistema de Biblioteca:** 3 Funções de Dados (2 ALIs + 1 AIE) e 7 Funções Transacionais (3 EEs + 2 SEs + 2 CEs).
+    2. **Realizar Empréstimo (EE Média):** Envolve 3 FTRs (`ALI Empréstimo`, `ALI Livro` e `ALI Usuário`), caindo na faixa de complexidade Média.
+    3. **Subtotal de Dados:** 26 PF (ALI Livro [10 PF] + ALI Empréstimo [10 PF] + AIE Usuário [6 PF]).
+    4. **Consultar Livro vs. Relatório de Atrasos:** `Consultar Livro` é uma CE Baixa (3 PF) pois apenas recupera dados sem cálculos; `Relatório de Atrasos` é uma SE Média (5 PF) pois calcula dias de atraso e valor acumulado de multa.
+    5. **Auxílio no orçamento:** Multiplica-se o total de 53 PF pela taxa de produtividade (ex: 10 h/PF) e pelo custo da hora (ex: R$ 100/h) para calcular o esforço (530 horas) e o custo total estimado do software (R$ 53.000,00).
+
 ---
 
 ## 📚 Referências utilizadas

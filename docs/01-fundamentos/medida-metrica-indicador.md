@@ -69,6 +69,18 @@ flowchart LR
 4. Dê um exemplo da cadeia completa: Medição -> Medida -> Métrica -> Indicador -> Decisão.
 5. Por que a normalização é necessária na construção de métricas?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Medida vs. Métrica:** Uma medida é uma quantificação direta ou bruta (ex: 20 defeitos encontrados), enquanto uma métrica conecta duas ou mais medidas relacionando atributos (ex: 20 defeitos por 1.000 linhas de código).
+    2. **Insuficiência do número absoluto:** 100 defeitos em um sistema de 1.000 linhas é gravíssimo (alta densidade), mas 100 defeitos em um sistema de 1.000.000 de linhas indica altíssima qualidade. Sem contexto de escala, o valor bruto ilude.
+    3. **Métrica -> Indicador:** Uma métrica torna-se um indicador quando é comparada a uma meta, limiar ou linha de base histórica, fornecendo suporte direto à tomada de decisão.
+    4. **Exemplo da cadeia completa:**
+       - *Medição:* Executar testes automatizados no sistema de e-commerce.
+       - *Medida:* 15 falhas encontradas; 50.000 linhas de código (50 KLOC).
+       - *Métrica:* Densidade de 0,3 defeitos / KLOC.
+       - *Indicador:* Sinal Verde no Dashboard (Meta da empresa é < 1,0 defeito / KLOC).
+       - *Decisão:* Aprovar o software para implantação em produção.
+    5. **Necessidade da normalização:** Permite comparar projetos de diferentes tamanhos, linguagens ou complexidades de forma justa e padronizada.
+
 ---
 
 ## 📚 Referências utilizadas

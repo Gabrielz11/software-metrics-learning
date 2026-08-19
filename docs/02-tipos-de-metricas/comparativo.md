@@ -40,6 +40,13 @@ graph LR
 4. Dê um exemplo de como uma decisão errada pode ocorrer ao observar apenas métricas de projeto ignorando métricas de produto.
 5. Qual a categoria de métricas mais adequada para avaliar a eficiência de uma esteira de testes automatizados?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Preenchimento de lacuna:** A densidade de defeitos é uma métrica de **produto** (ou qualidade do código), enquanto o Lead Time é uma métrica de **processo** (tempo de fluxo no sistema de trabalho).
+    2. **Categoria para Arquiteto:** Métricas de **Produto** (complexidade acoplamento, manutenibilidade e arquitetura).
+    3. **Visão integrada para o GP:** Para garantir o equilíbrio entre o "triângulo de ferro" (prazo/custo do projeto), a capacidade contínua da equipe (processo) e a sustentabilidade/qualidade do código entregue (produto).
+    4. **Decisão errada:** Comemorar o término do projeto dentro do prazo e custo (métricas de projeto ok), sem perceber que a dívida técnica e complexidade do produto dispararam, inviabilizando futuras manutenções.
+    5. **Esteira de testes:** Métricas de **Processo** (tempo de execução do pipeline, taxa de sucesso do build, velocidade do ciclo de feedback).
+
 ---
 
 ## 📚 Referências utilizadas

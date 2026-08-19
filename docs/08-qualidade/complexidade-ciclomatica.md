@@ -57,6 +57,16 @@ $$\text{Complexidade Ciclomática } V(G) = 2\text{ (decisões)} + 1 = 3$$
 4. Qual o limite recomendado de complexidade ciclomática para uma única função antes de exigir refatoração?
 5. Qual a relação entre a complexidade ciclomática e o número mínimo de casos de teste necessários para cobertura completa de caminhos?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Criador:** Thomas J. McCabe (em 1976).
+    2. **Duas fórmulas de McCabe:**
+       - Por grafo de fluxo: $V(G) = E - N + 2P$ (onde $E$ é o número de arestas, $N$ o número de nós e $P$ o número de componentes conexos).
+       - Por pontos de decisão: $V(G) = P + 1$ (onde $P$ é a contagem de nós/instruções de decisão como `if`, `while`, `for`, `case`).
+    3. **Cálculo de V(G):** Com 3 `if` e 1 `while`, temos 4 pontos de decisão.
+       $$V(G) = 4 + 1 = 5$$
+    4. **Limite recomendado:** Manter $V(G) \le 10$. Funções com $V(G) > 10$ devem ser refatoradas e divididas em funções menores.
+    5. **Relação com casos de teste:** $V(G)$ indica exatamente o número mínimo de caminhos independentes que precisam ser testados para atingir 100% de cobertura de caminhos (*Path Coverage*).
+
 ---
 
 ## 📚 Referências utilizadas

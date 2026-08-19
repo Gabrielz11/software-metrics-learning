@@ -40,6 +40,18 @@ Sistema de Biblioteca
 4. Qual métrica você utilizaria para contratar a fábrica de software que construiu o sistema?
 5. Qual métrica você utilizaria para planejar a refatoração do código-fonte Python?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Resumo Consolidado:**
+       - Tamanho Funcional: 53 PF / 52,77 UCP
+       - Tamanho Físico: 10.000 SLOC
+       - Esforço Real: 500 horas-pessoa
+       - Produtividade: 9,43 h/PF (ou 20 SLOC/h)
+       - Qualidade: 40 defeitos totais ($0,75\text{ def/PF}$, $4\text{ def/KLOC}$), DRE de $87,5\%$ e Cobertura de $92\%$.
+    2. **Conversão direta de PF em LOC:** Porque a quantidade de LOC varia conforme a linguagem, estilo de codificação, nível de refatoração e uso de bibliotecas de terceiros; fazer "backfiring" gera altas margens de erro.
+    3. **Convergência APF vs. UCP:** Ambos capturaram com precisão o mesmo escopo de negócio do estudo de caso sob perspectivas equivalentes.
+    4. **Métrica para contratação de fábrica de software:** APF (Análise de Pontos de Função), por ser o padrão internacional neutro para precificação contratual (R$/PF).
+    5. **Métrica para refatoração:** LOC/SLOC combinada com Complexidade Ciclomática $V(G)$ e Cobertura de Testes.
+
 ---
 
 ## 📚 Referências utilizadas

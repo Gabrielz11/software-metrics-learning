@@ -29,6 +29,13 @@ Resumo consolidado dos dados operacionais de qualidade do *Sistema de Biblioteca
 4. Qual o percentual de cobertura de testes automatizados atingido?
 5. Qual ação de melhoria de processo deve ser tomada para reduzir os 5 defeitos escapados?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **DRE Atingida:** $87,5\%$ (35 defeitos internos removidos de um total de 40 defeitos).
+    2. **Defeitos escapados para produção:** 5 defeitos.
+    3. **Densidade de defeitos por PF:** $40 / 53 \approx 0,75 \text{ defeitos/PF}$.
+    4. **Cobertura de testes:** $92\%$ de cobertura de linhas com pytest.
+    5. **Ação de melhoria:** Analisar as causas raízes dos 5 defeitos escapados, incluindo cenários de teste automatizados para estes casos limite e aprimorando as etapas de homologação com usuários.
+
 ---
 
 ## 📚 Referências utilizadas

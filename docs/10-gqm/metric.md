@@ -28,6 +28,13 @@ No GQM, a coleta de dados é **orientada por hipóteses**. Os dados coletados al
 4. Qual a diferença entre coletar dados por rotina e coletar dados orientados pelo GQM?
 5. Dê dois exemplos de métricas derivadas para responder sobre a velocidade de correção de bugs.
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Associação de métricas:** Cada pergunta é mapeada para uma ou mais métricas quantitativas (diretas ou indiretas) que fornecem os dados numéricos necessários para responder àquela indagação.
+    2. **Reuso de métricas:** Sim, uma única métrica (ex: contagem de KLOC ou tempo de teste) pode alimentar o cálculo de respostas para diferentes perguntas da mesma árvore.
+    3. **Métricas sem ligação:** São consideradas "métricas órfãs" ou desperdício de esforço de medição e devem ser descartadas do programa de métricas.
+    4. **Coleta por rotina vs. GQM:** A coleta por rotina acumula dados aleatórios sem propósito claro. A coleta orientada pelo GQM é guiada por hipóteses e focada estritamente no suporte à tomada de decisão.
+    5. **Duas métricas para velocidade de bugs:** MTTR (Mean Time to Repair em horas) e Tempo Médio no Estado "In Progress" para os cards do tipo Bug.
+
 ---
 
 ## 📚 Referências utilizadas

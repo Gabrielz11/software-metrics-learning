@@ -29,6 +29,13 @@ Em termos reais, contudo, interferências de comunicação, dependências extern
 4. Como a dependência entre tarefas estabelece o caminho crítico do prazo?
 5. Qual é o perigo de comprimir o prazo de um projeto sem alterar o escopo?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Divisão simples:** Porque tarefas possuem dependências sequenciais não-paralelizáveis e a adição de pessoas adiciona sobrecarga de comunicação ($N(N-1)/2$).
+    2. **Unidade de medida:** Dias úteis, semanas ou meses de calendário (dias de cronograma decorrido).
+    3. **Tempo de espera (Queue Time):** É o tempo em que o item fica parado aguardando aprovação, revisão de código ou disponibilidade de ambiente. Ele aumenta o Lead Time total sem agregar valor ou consumir esforço de desenvolvimento ativo.
+    4. **Caminho crítico:** A sequência de tarefas encadeadas com folga zero que determina a duração mínima total do projeto; qualquer atraso nessas tarefas atrasará o prazo final.
+    5. **Perigo de comprimir prazo:** Força a equipe a cortar cantos de qualidade (reduzir testes, criar dívida técnica) ou gera sobrecarga de horas extras e *burnout*, aumentando a incidência de defeitos.
+
 ---
 
 ## 📚 Referências utilizadas

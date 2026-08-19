@@ -44,6 +44,14 @@ Onde:
 4. Se um projeto exige 480 horas-pessoa, a quantos Pessoas-Mês isso equivale?
 5. Qual é a célebre Lei de Brooks sobre esforço e equipes em projetos atrasados?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Esforço vs. Prazo:** Esforço é a quantidade total de horas de trabalho necessárias para concluir uma tarefa (trabalho acumulado), enquanto Prazo é o tempo decorrido no calendário desde o início até a conclusão da entrega.
+    2. **1 Pessoa-Mês (PM):** O esforço correspondente ao trabalho em tempo integral de 1 desenvolvedor durante 1 mês comercial (geralmente padronizado entre 140h a 160h úteis).
+    3. **Relação não linear:** Projetos maiores sofrem aumento desproporcional nos custos de comunicação, coordenação, integração e testes (diseconomias de escala).
+    4. **Cálculo de 480 horas-pessoa:** Considerando o padrão comum de 160h/mês:
+       $$\text{Pessoa-Mês} = \frac{480\text{h}}{160\text{h/PM}} = 3\text{ PM}$$
+    5. **Lei de Brooks:** "Adicionar mais pessoas a um projeto de software atrasado o torna ainda mais atrasado" (*Adding manpower to a late software project makes it later*), devido ao custo de treinamento e sobrecarga de comunicação.
+
 ---
 
 ## 📚 Referências utilizadas

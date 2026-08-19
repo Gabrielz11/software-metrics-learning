@@ -36,6 +36,13 @@ Se a meta individual for baseada em LOC, a equipe é incentivada a escrever cód
 4. Qual a diferença entre medir tamanho físico (LOC) e tamanho funcional (APF)?
 5. Em que situações a métrica de LOC ainda possui utilidade prática legítima?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Invalidez da comparação entre linguagens:** Linguagens expressivas de alto nível resolvem problemas complexos em poucas linhas, fazendo uma equipe em Python parecer "menos produtiva" em LOC do que uma equipe em C ou Assembly, mesmo entregando mais valor de negócio.
+    2. **Efeito da refatoração:** A boa refatoração simplifica o código e reduz o número de linhas (LOC negativo), o que penalizaria um desenvolvedor sob uma medição simplista de linhas escritas.
+    3. **Estímulo à prolixidade:** Fenômeno derivado da Lei de Goodhart: quando LOC vira meta de produtividade, os desenvolvedores passam a copiar código, evitar reuso de bibliotecas e escrever funções verbosas.
+    4. **Tamanho Físico vs. Funcional:** LOC mede o tamanho da implementação/artefato técnico gerado. APF mede o tamanho das capacidades de negócio e dados fornecidas ao usuário final.
+    5. **Utilidade legítima de LOC:** Estimativa do tamanho de manutenção de sistemas legados existentes, cálculo de densidade de defeitos interna na mesma stack e análise de evolução do volume de base de código ao longo do tempo.
+
 ---
 
 ## 📚 Referências utilizadas

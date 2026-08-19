@@ -38,6 +38,16 @@ $$\text{UUCW} = 10 + 10 + 15 + 5 + 5 = 45$$
 4. Calcule o UUCW de um sistema com 2 casos de uso simples e 1 caso de uso complexo.
 5. Se um caso de uso possui 5 transações no fluxo principal e 4 nos alternativos (total 9), qual o seu peso?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Determinação de complexidade:** Pelo número de transações (ou passos lógicos atômicos) contidas na descrição do caso de uso (somando fluxos principal, alternativos e de exceção).
+    2. **Três categorias e pesos:**
+       - *Simples:* 1 a 3 transações (Peso 5).
+       - *Médio:* 4 a 7 transações (Peso 10).
+       - *Complexo:* 8 ou mais transações (Peso 15).
+    3. **O que é uma transação:** Uma sequência atômica de passos executados entre o ator e o sistema que é realizada completamente ou abortada (ex: envio de formulário e validação/resposta do sistema).
+    4. **Cálculo de UUCW:** $2 \times 5 \text{ (simples)} + 1 \times 15 \text{ (complexo)} = 10 + 15 = 25$.
+    5. **Caso de uso com 9 transações:** Classifica-se como **Complexo** ($\ge 8$ transações), recebendo **Peso 15**.
+
 ---
 
 ## 📚 Referências utilizadas

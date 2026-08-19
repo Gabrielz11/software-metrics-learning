@@ -57,6 +57,14 @@ Métricas indiretas resultam da combinação matemática de duas ou mais medidas
 4. Por que atributos como "usabilidade" exigem métricas indiretas para sua avaliação?
 5. Dê dois exemplos de medições diretas comumente realizadas em repositórios de código.
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Métrica Direta vs. Indireta:** As métricas diretas medem um atributo sem depender de nenhuma outra variável (ex: contagem de LOC, tempo decorrido). As métricas indiretas combinam duas ou mais medições por meio de uma fórmula ou modelo (ex: densidade de defeitos = defeitos / tamanho).
+    2. **Produtividade como métrica indireta:** Ela deriva da relação entre uma medida de resultado (ex: Pontos de Função entregues) e uma medida de recurso consumido (ex: horas de esforço).
+    3. **Fórmula da densidade de defeitos:**
+       $$\text{Densidade de Defeitos} = \frac{\text{Total de Defeitos Encontrados}}{\text{Tamanho do Software (em KLOC ou PF)}}$$
+    4. **Usabilidade com métrica indireta:** A usabilidade é uma qualidade abstrata; não há "regua" para medi-la diretamente. Ela precisa ser aferida indiretamente agregando métricas como taxa de sucesso de tarefas, tempo por tarefa, número de erros do usuário e pontuação em questionários (ex: SUS).
+    5. **Exemplos de medições diretas:** Contagem de linhas de código (LOC) e contagem de commits efetuados.
+
 ---
 
 ## 📚 Referências utilizadas

@@ -26,6 +26,14 @@ Para aumentar o Throughput sem sobrecarregar a equipe, o caminho mais eficaz é 
 4. Escreva a equação matemática da Lei de Little.
 5. Qual a diferença entre Throughput e Velocity?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Relação da Lei de Little:** Estabelece que o tempo médio de permanência (Cycle Time) é igual ao Trabalho em Progresso (WIP) dividido pela taxa de saída (Throughput).
+    2. **Throughput semanal:** A contagem absoluta de itens de trabalho concluídos (ex: Histórias, Bugs, Tasks) entregues em produção durante a semana.
+    3. **Impacto da limitação do WIP:** Reduz a troca de contexto (*context switching*), diminui gargalos e faz os itens fluírem mais rapidamente do início ao fim.
+    4. **Equação da Lei de Little:**
+       $$\text{Cycle Time} = \frac{\text{WIP}}{\text{Throughput}} \quad \iff \quad \text{Throughput} = \frac{\text{WIP}}{\text{Cycle Time}}$$
+    5. **Throughput vs. Velocity:** Throughput conta a quantidade bruta de *itens entregues* (ex: 12 tarefas/semana), enquanto Velocity soma os *pontos de estimativa* relativos entregues (ex: 30 Story Points/sprint).
+
 ---
 
 ## 📚 Referências utilizadas

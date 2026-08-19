@@ -59,6 +59,13 @@ A medição atribui um número ou símbolo a um atributo de uma entidade do soft
 4. Como a definição de IEEE 610.12 caracteriza uma métrica?
 5. Qual é o primeiro passo para implementar um programa de medição sustentável?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Estimativa baseada em métricas vs. Palpite:** A estimativa baseada em métricas utiliza dados históricos, modelos matemáticos e medições quantitativas passadas, enquanto o palpite baseia-se apenas na intuição ou intuição individual, sem fundamentação empírica.
+    2. **Intangibilidade do código:** Como o software não tem presença física, é impossível "ver" ou "pesar" o progresso visualmente. Métricas quantificam atributos abstratos (tamanho, complexidade, progresso) tornando o estado do projeto visível e gerenciável.
+    3. **Perigo de usar LOC por indivíduo:** Estimula a escrita de código verboso e de baixa qualidade (Lei de Goodhart), ignora a fase de design/refatoração e não mede o verdadeiro valor de negócio entregue.
+    4. **Definição IEEE 610.12:** Uma métrica é uma medida quantitativa do grau em que um sistema, componente ou processo possui um dado atributo.
+    5. **Primeiro passo:** Definir objetivos de negócio e de processo claros (por exemplo, usando o framework GQM), estabelecendo o porquê de medir antes de coletar dados.
+
 ---
 
 ## 📚 Referências utilizadas

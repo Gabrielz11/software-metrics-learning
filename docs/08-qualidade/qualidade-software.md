@@ -28,6 +28,13 @@ QUALIDADE DE SOFTWARE
 4. Por que medir apenas o número de falhas em produção é insuficiente para avaliar a qualidade total?
 5. Qual o papel das normas da família SQuaRE na Engenharia de Software?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Definição ISO/IEC:** É o grau em que um conjunto de características inerentes de um produto de software atende às necessidades explícitas e implícitas dos seus usuários e partes interessadas.
+    2. **Conceito multifacetado:** Porque envolve aspectos internos perceptíveis pelos desenvolvedores (legibilidade, manutenibilidade), aspectos externos perceptíveis pelo usuário (desempenho, usabilidade) e qualidade de uso no ambiente de negócio.
+    3. **Qualidade de processo vs. produto:** Qualidade de processo foca em como o software é construído e mantido (práticas de engenharia, esteira CI/CD). Qualidade de produto foca nos atributos e no comportamento do artefato de software final gerado.
+    4. **Insuficiência de falhas em produção:** Mede apenas a qualidade externa tardia; não revela o endividamento técnico, baixa testabilidade, má arquitetura ou risco de manutenibilidade futura.
+    5. **Papel das normas SQuaRE (ISO/IEC 25000):** Padronizar internacionalmente a especificação e avaliação da qualidade do produto e requisitos de software.
+
 ---
 
 ## 📚 Referências utilizadas

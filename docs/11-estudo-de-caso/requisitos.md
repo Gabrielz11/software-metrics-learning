@@ -32,6 +32,13 @@ Especificação completa dos Requisitos Funcionais (RF) e Não-Funcionais (RNF) 
 4. Como a clareza dos requisitos afeta a contagem de Pontos de Função?
 5. Qual a importância de manter a especificação de requisitos estável para o cálculo de UCP?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Quantidade de Requisitos Funcionais:** 5 requisitos funcionais (RF01 a RF05: Manter Usuários, Manter Livros, Realizar Empréstimo, Registrar Devolução e Consultar Livro/Atrasos).
+    2. **Integração externa:** O RF01 / RNF02, que realiza a consulta de validação de CPF junto a um serviço externo via API.
+    3. **Entidades de dados mantidas:** `Livro` e `Empréstimo` (ALIs internos) e `Usuário` (mantido/consultado via AIE externo).
+    4. **Clareza de requisitos na APF:** Requisitos claros e bem detalhados evitam ambiguidade na identificação de DETs, FTRs e tipos de funções, reduzindo a variabilidade entre contadores.
+    5. **Estabilidade de requisitos no UCP:** Como o UCP se baseia no fatiamento de cenários de casos de uso e contagem de transações, qualquer alteração no fluxo altera o valor de UUCW e a estimativa final em horas.
+
 ---
 
 ## 📚 Referências utilizadas

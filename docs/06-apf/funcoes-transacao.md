@@ -51,6 +51,13 @@ Processo elementar que envia dados para fora da fronteira da aplicação. Sua in
 4. A funcionalidade "Cadastrar Aluno" altera algum ALI? Qual a sua classificação?
 5. Qual a sigla em inglês para Entrada Externa e Saída Externa?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **SE vs. CE:** Ambas enviam dados para fora da fronteira, mas a SE (Saída Externa) contém lógica matemática/cálculos adicionais, dados derivados ou manutenção de um ALI. A CE (Consulta Externa) apenas recupera e apresenta dados sem efetuar cálculos ou derivados.
+    2. **Intenção primária da EE:** Processar dados ou informações de controle que vêm de fora da fronteira da aplicação para manter um ou mais ALIs.
+    3. **Pesquisa simples sem cálculos:** É uma **CE** (Consulta Externa).
+    4. **Cadastrar Aluno:** Altera/mantém o `ALI Aluno`. Sua classificação é **EE** (Entrada Externa).
+    5. **Siglas em inglês:** EI (*External Input*) para Entrada Externa e EO (*External Output*) para Saída Externa.
+
 ---
 
 ## 📚 Referências utilizadas

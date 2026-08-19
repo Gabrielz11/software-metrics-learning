@@ -42,6 +42,13 @@ flowchart LR
 4. Quais fatores de ajuste devem ser considerados ao comparar dois projetos?
 5. Qual a principal limitação da analogia em projetos inovadores?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Premissa fundamental:** Projetos semelhantes no passado exigiram esforço e prazos semelhantes; logo, o histórico real de projetos passados serve como base para prever novos projetos.
+    2. **Momento aplicável:** Fases iniciais de viabilidade ou concepção, onde os detalhes de código ou casos de uso ainda não estão totalmente refinados.
+    3. **Base histórica indispensável:** Sem dados reais registrados de projetos anteriores (tamanho, esforço gasto, desvios), a comparação analógica vira apenas adivinhação sem fundamento empírico.
+    4. **Fatores de ajuste:** Diferenças na experiência da equipe, complexidade do domínio, stack tecnológica, prazos e nível de qualidade/segurança exigido.
+    5. **Limitação em projetos inovadores:** Se a organização nunca realizou um projeto parecido (nova tecnologia, modelo de negócio inédito), não haverá análogos históricos válidos para comparação.
+
 ---
 
 ## 📚 Referências utilizadas

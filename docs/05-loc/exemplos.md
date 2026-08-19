@@ -55,6 +55,13 @@ print(stats)
 4. Mostre como identificar as linhas em branco em uma função.
 5. Qual a contagem SLOC de um arquivo composto apenas por docstrings e comentários?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Módulo `software_metrics.loc`:** Fornece rotinas e analisadores sintáticos prontos em Python para inspecionar diretórios de código e categorizar linhas físicas, em branco, comentários e SLOC.
+    2. **Automação em 500 arquivos:** Percorrer recursivamente o diretório (`os.walk` ou `pathlib.Path`), aplicar o analisador em cada arquivo `.py` para somar os SLOCs e dividir por 1.000 no final.
+    3. **Inviabilidade da contagem manual:** É extremamente demorada, suscetível a erro humano, não escala e torna-se obsoleta a cada novo commit efetuado.
+    4. **Identificação de linhas em branco:** Verificar se o texto da linha limpo de espaços em branco (usando `line.strip()`) resulta em uma string vazia `""`.
+    5. **Arquivo só com comentários/docstrings:** A contagem de SLOC executável é 0 (zero), embora a contagem física total reflita o número de linhas de documentação.
+
 ---
 
 ## 📚 Referências utilizadas

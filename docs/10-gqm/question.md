@@ -22,6 +22,15 @@ As **Perguntas (Questions)** refinam o Objetivo geral em questões operacionais 
 4. O que caracteriza uma pergunta de avaliação de desempenho em GQM?
 5. Por que cada pergunta deve ser passível de resposta por meio de métricas quantitativas?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Papel do nível Question:** Decompor o objetivo conceitual em perguntas operacionais refinadas que caracterizam o objeto e o foco de qualidade sob a perspectiva definida.
+    2. **Conexão entre objetivo e métricas:** As perguntas quebram a meta ampla em necessidades concretas de informação; cada pergunta exige métricas numéricas específicas para ser respondida.
+    3. **Duas perguntas de produtividade:**
+       - "Qual é o tempo médio de ciclo (*Cycle Time*) para a entrega de uma nova funcionalidade?"
+       - "Quantos Pontos de Função são entregues por mês por cada membro da equipe?"
+    4. **Pergunta de avaliação de desempenho:** Aquela que busca mensurar quão bem um processo ou produto está funcionando em comparação a um padrão ou meta esperada.
+    5. **Passível de resposta quantitativa:** Porque se uma pergunta for vaga ou puramente subjetiva, não será possível definir métricas numéricas e empíricas para respondê-la de forma auditável.
+
 ---
 
 ## 📚 Referências utilizadas

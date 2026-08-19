@@ -35,6 +35,18 @@ $$A = \left( \frac{\text{MTBF}}{\text{MTBF} + \text{MTTR}} \right) \times 100\%$
 4. Como a redução do MTTR afeta a disponibilidade geral de um software?
 5. Qual a diferença entre MTTR e Lead Time de um bug?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **MTBF e MTTR:**
+       - *MTBF:* Mean Time Between Failures (Tempo Médio Entre Falhas).
+       - *MTTR:* Mean Time To Repair (Tempo Médio Para Reparo).
+    2. **Cálculo de MTBF e MTTR (1.000h de operação, 5 falhas, 10h reparo):**
+       $$\text{MTBF} = \frac{1.000}{5} = 200 \text{ horas/falha}$$
+       $$\text{MTTR} = \frac{10}{5} = 2 \text{ horas/reparo}$$
+    3. **Fórmula da Disponibilidade:**
+       $$A = \left( \frac{\text{MTBF}}{\text{MTBF} + \text{MTTR}} \right) \times 100\%$$
+    4. **Efeito da redução do MTTR:** Como o MTTR está no denominador da fração de indisponibilidade, recuperar o sistema mais rapidamente aumenta diretamente a porcentagem de disponibilidade total.
+    5. **MTTR vs. Lead Time do Bug:** MTTR mede estritamente o tempo de indisponibilidade ativa do serviço do momento em que cai até voltar a funcionar; o Lead Time de um bug mede o tempo total desde que a issue foi aberta no repositório até sua correção final ir para produção.
+
 ---
 
 ## 📚 Referências utilizadas

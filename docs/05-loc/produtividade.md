@@ -39,6 +39,17 @@ $$D_{\text{KLOC}} = \frac{40}{10} = 4\text{ defeitos/KLOC}$$
 4. O que indica uma diminuição na densidade de defeitos/KLOC ao longo de três releases sucessivas?
 5. Escreva a equação matemática da densidade de defeitos por KLOC.
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Fórmula da produtividade em LOC:**
+       $$\text{Produtividade} = \frac{\text{Linhas de Código (LOC ou SLOC)}}{\text{Horas de Esforço Consumidas}}$$
+    2. **Cálculo da produtividade (6.000 LOC em 300h):**
+       $$\text{Produtividade} = \frac{6.000\text{ LOC}}{300\text{ horas}} = 20\text{ LOC/hora}$$
+    3. **Densidade de defeitos (15 KLOC e 30 defeitos):**
+       $$D_{\text{KLOC}} = \frac{30\text{ defeitos}}{15\text{ KLOC}} = 2\text{ defeitos/KLOC}$$
+    4. **Queda na densidade de defeitos:** Indica evolução positiva na qualidade técnica do produto e maturidade no processo de testes e revisão de código.
+    5. **Equação da densidade de defeitos:**
+       $$\text{Densidade de Defeitos} = \frac{\text{Total de Defeitos}}{\text{KLOC}}$$
+
 ---
 
 ## 📚 Referências utilizadas

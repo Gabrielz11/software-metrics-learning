@@ -45,6 +45,13 @@ def validar_usuario(usuario):  # Instrução Lógica (Linha 2)
 4. Por que convenções de codificação (como PEP 8) alteram a contagem de linhas físicas?
 5. Qual a importância das ferramentas automáticas de análise na contagem de LOC?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Linhas físicas vs. lógicas:** Linhas físicas contam o número de quebras de linha (`\n`) no arquivo texto. Linhas lógicas (SLOC) contam declarações ou instruções executáveis válidas de linguagem, independentemente de estarem espalhadas em várias linhas físicas.
+    2. **Linha vazia em SLOC:** É ignorada e descartada da contagem de SLOC.
+    3. **Duas instruções numa mesma linha:** 1 linha física e 2 linhas lógicas.
+    4. **Convenções de codificação (ex: PEP 8):** Regras de estilização (como limites de 79 caracteres por linha) forçam quebra de instruções compridas em múltiplas linhas físicas, alterando a contagem física sem alterar as instruções lógicas do programa.
+    5. **Ferramentas automáticas (ex: CLOC):** Garantem padronização determinística, eliminam viés humano e processam repositórios inteiros em poucos segundos.
+
 ---
 
 ## 📚 Referências utilizadas

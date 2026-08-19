@@ -29,6 +29,15 @@ Análise dimensional de código físico do *Sistema de Biblioteca*.
 4. Quantas KLOC o sistema possui no total?
 5. Como os comentários impactaram a diferença entre LOC total e SLOC?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Contagem de SLOC:** 10.000 linhas executáveis de código-fonte em Python.
+    2. **Produtividade física:**
+       $$\text{Produtividade} = \frac{10.000\text{ SLOC}}{500\text{ horas}} = 20\text{ SLOC/hora}$$
+    3. **Densidade de defeitos por KLOC:**
+       $$D_{\text{KLOC}} = \frac{40\text{ defeitos}}{10\text{ KLOC}} = 4,0\text{ defeitos/KLOC}$$
+    4. **Total de KLOC:** $10.000 / 1.000 = 10\text{ KLOC}$.
+    5. **Impacto dos comentários:** O arquivo físico possui mais linhas totais (LOC), mas o analisador sintático ignorou linhas em branco e comentários para isolar exatamente os 10.000 SLOC executáveis.
+
 ---
 
 ## 📚 Referências utilizadas

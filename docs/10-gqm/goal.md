@@ -35,6 +35,18 @@ ESTRUTURA DE UM GOAL GQM:
 4. Escreva um objetivo GQM formalizado para o módulo de pagamentos de uma loja virtual.
 5. O que distingue o "Objeto" do "Contexto" na estrutura de Basili?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **5 Elementos do Objetivo GQM:** Objeto (*Object*), Propósito (*Purpose*), Foco de Qualidade (*Quality Focus*), Ponto de Vista (*Viewpoint*) e Contexto (*Environment/Context*).
+    2. **Importância do Ponto de Vista:** Porque o conceito de qualidade ou sucesso varia de acordo com quem analisa os dados (ex: o que é prioridade para o Gerente Financeiro difere do que é prioridade para o Arquiteto de Software).
+    3. **Exemplos de Propósito:** "Analisar para compreender", "Analisar para avaliar", "Analisar para melhorar" ou "Analisar para controlar".
+    4. **Exemplo de Objetivo formalizado:**
+       - *Analisar* o módulo de pagamentos checkout
+       - *Com o propósito de* avaliar e reduzir a taxa de rejeição de transações
+       - *Sob o foco de* confiabilidade e desempenho
+       - *Do ponto de vista do* Gerente de Produto (PO)
+       - *No contexto do* ambiente de produção da loja virtual.
+    5. **Objeto vs. Contexto:** Objeto é o processo, produto ou recurso específico sendo analisado (ex: módulo de login). Contexto é o ambiente organizacional ou de execução onde esse objeto opera (ex: equipe alfa na release 2.0).
+
 ---
 
 ## 📚 Referências utilizadas

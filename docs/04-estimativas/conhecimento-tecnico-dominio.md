@@ -44,6 +44,13 @@ TÉCNICO                        │              TÉCNICO
 4. Em qual cenário da matriz a variabilidade da estimativa é mínima?
 5. Como mitigar o risco de estimativa quando ambas as dimensões de conhecimento são baixas?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Duas dimensões:** Conhecimento Técnico (tecnologias, linguagens, arquitetura) e Conhecimento do Domínio de Negócio (regras de negócio, fluxos do cliente).
+    2. **Alto técnico / Baixo domínio:** Risco de construir com excelente arquitetura e elegância um produto que não atende às necessidades reais do negócio ("construir perfeitamente o produto errado").
+    3. **Spike:** Uma tarefa investigativa de tempo limitado (*timeboxed*) criada para pesquisar, experimentar ou criar um protótipo com o objetivo de reduzir a incerteza técnica ou de domínio antes de estimar o desenvolvimento definitivo.
+    4. **Variabilidade mínima:** No Cenário A (Alto Conhecimento Técnico e Alto Conhecimento do Domínio).
+    5. **Mitigação quando ambos são baixos:** Realizar *spikes* de exploração, construir protótipos de validação com os usuários e adotar estimativas por intervalos amplos ou iterativas.
+
 ---
 
 ## 📚 Referências utilizadas

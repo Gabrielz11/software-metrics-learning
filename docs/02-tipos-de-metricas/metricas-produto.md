@@ -62,6 +62,13 @@ mindmap
 4. Qual é a relação entre tamanho de produto (APF/LOC) e a estimativa de esforço?
 5. O tempo de resposta de uma API é uma métrica de produto ou de processo? Justifique.
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Métrica de Produto:** É a medição das características ou atributos do próprio entregável de software (como código-fonte, arquitetura, documentação ou executável), independentemente do processo utilizado para construí-lo.
+    2. **Exemplos de Métricas de Produto:** Linhas de código (LOC), Pontos de Função (APF), Complexidade Ciclomática e Cobertura de Testes.
+    3. **Automação via Análise Estática:** Ferramentas (ex: SonarQube) analisam o código-fonte sem executá-lo, calculando automaticamente acoplamento, complexidade, duplicação e violações de padrões de codificação.
+    4. **Tamanho vs. Esforço:** O tamanho (medido em APF ou LOC) serve como entrada principal para modelos empíricos ou históricos de estimativa de esforço (ex: horas necessárias para desenvolvimento).
+    5. **Tempo de resposta de API:** É uma métrica de **produto**, pois avalia um atributo de desempenho não-funcional da própria aplicação em execução.
+
 ---
 
 ## 📚 Referências utilizadas

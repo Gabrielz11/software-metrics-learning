@@ -38,6 +38,16 @@ $$\text{Taxa de Esforço (h/PF)} = \frac{500\text{ horas}}{50\text{ PF}} = 10\te
 4. Por que a medição de produtividade em LOC pode incentivar práticas ruins de codificação?
 5. Qual a importância de analisar a produtividade paralelamente às métricas de qualidade?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Fórmula da Produtividade:**
+       $$\text{Produtividade} = \frac{\text{Volume de Saída (Output - ex: PF)}}{\text{Esforço Consumido (Input - ex: Horas ou Pessoas-Mês)}}$$
+    2. **Cálculo de produtividade (120 PF em 600h):**
+       $$\text{Produtividade} = \frac{120\text{ PF}}{600\text{ horas}} = 0,2\text{ PF/hora}$$
+       (ou 5 horas por Ponto de Função).
+    3. **Taxa de 5 horas/PF:** Significa que a equipe necessita, em média, de 5 horas de trabalho para analisar, projetar, codificar, testar e entregar 1 Ponto de Função funcional.
+    4. **Incentivo a práticas ruins por LOC:** Estimula a duplicação de código e estruturas prolixas para parecer mais "produtivo", ferindo o princípio de *Clean Code*.
+    5. **Produtividade vs. Qualidade:** Aumentar a velocidade de entrega criando código com muitos defeitos gera ilusão de alta produtividade, mas causa gargalos destrutivos na fase de manutenção. Produtividade real é entrega de software funcional com qualidade sustentável.
+
 ---
 
 ## 📚 Referências utilizadas

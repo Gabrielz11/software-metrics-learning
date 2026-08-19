@@ -41,6 +41,13 @@ Mede a quantidade de funcionalidades entregues ao usuário, independentemente da
 4. Como o tamanho é utilizado como entrada para a estimativa de esforço?
 5. Quais são as duas principais unidades de medida de tamanho funcional?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Tamanho físico vs. funcional:** O tamanho físico mede o volume do artefato de código (ex: LOC), enquanto o tamanho funcional mede a quantidade de funcionalidades entregues aos usuários com base nos seus requisitos de negócio (ex: APF, UCP).
+    2. **APF antes da codificação:** Porque a Análise de Pontos de Função depende apenas das especificações funcionais e requisitos de dados/transações do usuário, dispensando decisões de linguagem ou implementação.
+    3. **Limitação de LOC em linguagens distintas:** Linguagens de alto nível (ex: Python) resolvem problemas com muito menos linhas do que linguagens mais verbosas (ex: Assembly/C), tornando a comparação por LOC injusta e imprecisa.
+    4. **Entrada para estimativa:** Multiplica-se o tamanho medido (ex: Ponto de Função) pela taxa de produtividade histórica da equipe (ex: horas por PF) para obter o esforço em horas-pessoa.
+    5. **Duas principais unidades funcionais:** Pontos de Função (APF - IFPUG) e Use Case Points (UCP).
+
 ---
 
 ## 📚 Referências utilizadas

@@ -41,6 +41,13 @@ $$\text{Esforço Estimado} = 52.77 \times 20\text{ h/UCP} \approx 1.055.4\text{ 
 4. Como o TCF e ECF ajustaram o resultado do UUCP de 52 para 52.77?
 5. Mostre como reproduzir este cálculo utilizando o módulo Python `software_metrics.use_case_points`.
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **UUCP do exemplo:** 52 UUCP (UAW = 7, UUCW = 45).
+    2. **Esforço total em horas:** 1.055,4 horas (calculado por $52,77 \times 20$).
+    3. **Subtotal UUCW:** 45 pontos (2 Médios [20] + 1 Complexo [15] + 2 Simples [10]).
+    4. **Ajuste por TCF e ECF:** $52 \times 1,02 \text{ (TCF)} \times 0,995 \text{ (ECF)} = 52,77 \text{ UCP}$, elevando levemente a contagem não ajustada em 1.48%.
+    5. **Reprodução em Python:** Instanciar a classe de cálculo do módulo informando os atores, casos de uso e matrizes de notas de TCF e ECF para executar `calculate_ucp()`.
+
 ---
 
 ## 📚 Referências utilizadas

@@ -30,6 +30,17 @@ $$D_{\text{PF}} = \frac{\text{Quantidade Total de Defeitos}}{\text{Tamanho em Po
 4. Como comparar a qualidade de dois módulos de tamanhos diferentes usando densidade?
 5. Escreva as duas equações de densidade de defeitos.
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Métrica mais justa:** Porque normaliza o número de defeitos pelo tamanho do software, impedindo que sistemas grandes sejam injustamente rotulados como de "baixa qualidade" apenas por acumularem mais linhas.
+    2. **Densidade em KLOC (20 KLOC, 30 defeitos):**
+       $$D = \frac{30}{20} = 1,5 \text{ defeitos/KLOC}$$
+    3. **Densidade em PF (100 PF, 20 defeitos):**
+       $$D = \frac{20}{100} = 0,2 \text{ defeitos/PF}$$
+    4. **Comparação entre módulos:** Calcula-se a densidade de cada módulo individualmente; aquele que apresentar a menor densidade (defeitos por unidade de tamanho) possui a maior qualidade relativa.
+    5. **Duas equações:**
+       $$D_{\text{KLOC}} = \frac{\text{Defeitos Totais}}{\text{KLOC}}$$
+       $$D_{\text{PF}} = \frac{\text{Defeitos Totais}}{\text{Pontos de Função}}$$
+
 ---
 
 ## 📚 Referências utilizadas

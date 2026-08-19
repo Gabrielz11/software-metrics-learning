@@ -38,6 +38,13 @@ $$\text{PFNA} = \sum (\text{Qtd ALI}_i \times \text{Peso}) + \sum (\text{Qtd AIE
 4. Como é calculado o total de Pontos de Função Não Ajustados (PFNA)?
 5. Qual a diferença de peso entre um ALI baixo (7) e um AIE baixo (5)?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **ALI Alta:** 15 Pontos de Função.
+    2. **EE Baixa:** 3 Pontos de Função.
+    3. **SE Média:** 5 Pontos de Função.
+    4. **Cálculo de PFNA:** É a soma direta dos pontos de função de todas as funções de dados (ALIs e AIEs) e funções transacionais (EEs, SEs e CEs), multiplicando a quantidade de cada elemento pelo peso correspondente à sua complexidade.
+    5. **Diferença ALI baixo vs. AIE baixo:** O ALI vale 7 PF e o AIE vale 5 PF (diferença de 2 PF). O IFPUG atribui peso menor ao AIE porque a aplicação não é responsável pela manutenção daqueles dados.
+
 ---
 
 ## 📚 Referências utilizadas

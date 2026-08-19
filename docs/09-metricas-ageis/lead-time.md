@@ -43,6 +43,13 @@ Trabalho Concluído (Done) ─────┴───────────�
 4. Qual das duas métricas reflete melhor a experiência direta do cliente final?
 5. Qual das duas métricas reflete a eficiência técnica direta do time de desenvolvimento?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Lead Time vs. Cycle Time:** Lead Time é o tempo total decorrido desde a solicitação da demanda (criação do pedido no backlog) até sua entrega final em produção. Cycle Time mede apenas o tempo de trabalho ativo no fluxo (desde o início do desenvolvimento até o deploy).
+    2. **Inclusão do tempo de backlog no Lead Time:** Porque sob a perspectiva do cliente, a espera conta a partir do momento em que o pedido foi feito.
+    3. **Impacto da redução de Queue Time:** Reduzir o tempo em que os itens ficam parados esperando decisão ou revisão diminui diretamente o Lead Time total sem exigir que a equipe programe mais rápido.
+    4. **Experiência do cliente final:** O **Lead Time** (pois mede quanto tempo o cliente espera pela solução solicitada).
+    5. **Eficiência técnica do time de dev:** O **Cycle Time** (pois mede a velocidade de execução técnica da engenharia).
+
 ---
 
 ## 📚 Referências utilizadas

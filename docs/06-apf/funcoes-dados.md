@@ -37,6 +37,13 @@ Grupo de dados correlatos, identificável pelo usuário, referenciado pela aplic
 4. Qual a sigla em inglês para Arquivo Lógico Interno?
 5. Dê dois exemplos de ALIs no contexto de um sistema acadêmico.
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **ALI vs. AIE:** Um ALI (Arquivo Lógico Interno) é mantido (criado/atualizado) pela própria aplicação sendo contada. Um AIE (Arquivo de Interface Externa) é apenas lido/consultado pela aplicação, sendo mantido por outra aplicação externa.
+    2. **Arquivos temporários:** Não são contados porque não atendem ao critério de serem um grupo logicamente relacionado de dados reconhecido pelo usuário final e de permanência/manutenção formal de negócio.
+    3. **Tabela de CEPs dos Correios:** É um **AIE** (Arquivo de Interface Externa), pois é mantido por um sistema externo e apenas consultado pelo Sistema de Biblioteca.
+    4. **Sigla em inglês para ALI:** ILF (*Internal Logic File*).
+    5. **Exemplos de ALIs em sistema acadêmico:** `ALI Aluno` e `ALI Matrícula`.
+
 ---
 
 ## 📚 Referências utilizadas

@@ -58,6 +58,13 @@ FUNCTION POINT ANALYSIS (APF)
 4. O que são Funções Transacionais e quais suas siglas?
 5. Qual a diferença entre escopo da contagem e fronteira da aplicação?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Fronteira da Aplicação:** Define o limite conceitual que separa a aplicação que está sendo contada dos usuários externos e de outros sistemas.
+    2. **Divisão de contagem:** Divide-se entre Funções de Dados (ALIs e AIEs) e Funções Transacionais (EEs, SEs e CEs).
+    3. **Funções de Dados:** Medem os dados mantidos ou consultados pela aplicação. Siglas: ALI (*Internal Logic File* - ILF) e AIE (*External Interface File* - EIF).
+    4. **Funções Transacionais:** Medem o processamento de dados e interações com a aplicação. Siglas: EE (*External Input*), SE (*External Output*) e CE (*External Inquiry*).
+    5. **Escopo vs. Fronteira:** O escopo define o propósito e o conjunto de funcionalidades específicas que serão medidas naquela contagem (ex: apenas a release 2.0). A fronteira define o limite físico/lógico do sistema em relação ao mundo exterior.
+
 ---
 
 ## 📚 Referências utilizadas

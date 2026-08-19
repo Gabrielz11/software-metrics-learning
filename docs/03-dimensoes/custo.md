@@ -35,6 +35,14 @@ $$\text{Custo Total} = (\text{Esforço em Horas} \times \text{Custo Médio da Ho
 4. O que são custos indiretos ou de overhead em projetos de engenharia?
 5. Por que subestimar o esforço afeta diretamente a margem de custo do projeto?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Componentes do custo:** Esforço humano (salários e encargos), infraestrutura/ferramentas (hardware, licenças de software, serviços de nuvem), treinamento e custos de gestão/overhead.
+    2. **Cálculo de R$/PF:**
+       $$\text{Custo por PF} = \frac{\text{Custo Total do Projeto (R\$)}}{\text{Total de Pontos de Função Entregues}}$$
+    3. **Peso do esforço humano:** Em engenharia de software, o esforço de pessoal responde tipicamente por 70% a 85% do custo total do projeto.
+    4. **Custos indiretos / Overhead:** Gastos que não estão ligados diretamente à codificação de uma funcionalidade específica, como aluguel do escritório, utilidades, salários de liderança corporativa, RH e licenças organizacionais.
+    5. **Impacto da subestimativa de esforço:** Como o custo é predominantemente derivado das horas de trabalho, subestimar as horas resulta diretamente em custo real maior do que o orçado, consumindo a margem financeira ou gerando prejuízo.
+
 ---
 
 ## 📚 Referências utilizadas

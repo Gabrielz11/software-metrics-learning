@@ -26,6 +26,13 @@ A Análise de Pontos de Função é amplamente aceita no mercado corporativo e g
 4. O que é a certificação CFPS do IFPUG?
 5. Como a APF lida com aspectos de infraestrutura e desempenho?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Duas grandes vantagens operacionais:** Permite estipular preços claros por unidade funcional (R$/PF) em licitações/contratos e possibilita estimar o tamanho antes da codificação iniciar.
+    2. **Sistemas com limitações:** Sistemas fortemente algorítmicos ou científicos (compiladores, drivers de dispositivo, motores 3D de jogos, IA), onde a complexidade vem do processamento interno e não da gestão de dados/telas.
+    3. **Exigência de requisitos:** Porque a contagem depende da identificação clara dos ALIs, AIEs, EEs, SEs e CEs, além dos seus respectivos DETs e FTRs/RETs.
+    4. **Certificação CFPS:** *Certified Function Point Specialist*, concedida pelo IFPUG a profissionais que demonstram domínio prático e teórico do Manual de Práticas de Contagem (CPM).
+    5. **Infraestrutura e desempenho:** A APF padrão (IFPUG 4.3.1) foca estritamente nos requisitos funcionais de negócio; requisitos não-funcionais (como tempo de resposta ou criptografia) não aumentam a contagem funcional direta.
+
 ---
 
 ## 📚 Referências utilizadas

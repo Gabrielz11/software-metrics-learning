@@ -39,6 +39,14 @@ $$\text{TCF} = 0.6 + \left( 0.01 \times \sum_{i=1}^{13} (w_i \times \text{Nota}_
 4. Se todas as notas forem 0, qual será o valor mínimo do TCF?
 5. Qual a finalidade do TCF no ajuste do tamanho em UCP?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Quantidade de fatores técnicos:** 13 fatores (T1 a T13).
+    2. **Fatores de maior peso (2.0):** T1 (Sistema Distribuído) e T2 (Performance / Tempo de Resposta).
+    3. **Faixa de notas:** De 0 (sem impacto / irrelevante) a 5 (impacto essencial / crítico).
+    4. **TCF Mínimo (todas as notas = 0):**
+       $$\text{TCF} = 0,6 + (0,01 \times 0) = 0,60$$
+    5. **Finalidade do TCF:** Ajustar a contagem não-ajustada de casos de uso (UUCP) incorporando os requisitos técnicos e não-funcionais da arquitetura do sistema.
+
 ---
 
 ## 📚 Referências utilizadas

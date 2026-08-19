@@ -41,6 +41,13 @@ Métricas de projeto permitem ao gerente de projetos monitorar o andamento em re
 4. Por que medir apenas o progresso de tarefas concluídas pode ser enganoso sem medir a qualidade dos entregáveis?
 5. Como os dados históricos de métricas de projeto ajudam em novos orçamentos?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Métrica de Projeto vs. Processo:** Métricas de projeto focam no acompanhamento operacional e gerencial de uma iniciativa específica com início e fim (custo, prazo, horas gastas), enquanto métricas de processo analisam a eficiência contínua da organização ao longo de múltiplos projetos.
+    2. **Variação de Esforço:** Compara as horas estimadas com as horas reais trabalhadas. Ao identificar desvios constantes, a organização ajusta os fatores de produtividade para orçar projetos futuros com maior acurácia.
+    3. **Custo Total / Pontos de Função:** Mede o custo unitário por Ponto de Função ($\text{Custo/PF}$), permitindo avaliar a eficiência financeira da entrega.
+    4. **Progresso sem qualidade:** Uma equipe pode concluir 90% das tarefas no prazo, mas se os artefatos contiverem alta densidade de defeitos, o projeto sofrerá com atrasos massivos na fase de testes ou homologação.
+    5. **Dados históricos e orçamentos:** Permitem estimar custos e prazos com base na produtividade real observada em projetos passados similares, reduzindo o risco de orçamentos irrealistas.
+
 ---
 
 ## 📚 Referências utilizadas

@@ -24,6 +24,15 @@ Tentar maximizar a produtividade bruta sem manter o controle de qualidade result
 4. Cite duas métricas de qualidade interna e duas de qualidade externa.
 5. Como a cobertura de testes impacta a confiabilidade do produto?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Qualidade Interna vs. Externa:** Qualidade interna refere-se à estrutura e manutenibilidade dos artefatos (código limpo, baixa complexidade, acoplamento), percebida pelos desenvolvedores. Qualidade externa refere-se ao comportamento do software em execução (desempenho, usabilidade, ausência de falhas), percebida pelo usuário final.
+    2. **Insuficiência do número absoluto:** Sem considerar a escala do sistema (LOC ou PF) e a severidade dos defeitos, não é possível saber se o produto tem alta ou baixa qualidade.
+    3. **Débito Técnico:** É o custo acumulado de escolher soluções fáceis/rápidas em vez de abordagens bem estruturadas. Seu impacto é desacelerar o desenvolvimento futuro e aumentar a incidência de novos defeitos.
+    4. **Duas métricas de cada:**
+       - *Qualidade Interna:* Complexidade Ciclomática e Acoplamento entre Classes (CBO).
+       - *Qualidade Externa:* Taxa de Falhas em Produção e Tempo de Resposta da Aplicação.
+    5. **Cobertura de testes e confiabilidade:** Alta cobertura reduz o risco de regressões e garante que alterações no código não quebrem comportamentos existentes já validados.
+
 ---
 
 ## 📚 Referências utilizadas

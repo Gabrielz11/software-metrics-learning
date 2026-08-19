@@ -37,6 +37,13 @@ Trabalho Restante (Points)
 4. Quais são os dois eixos de um gráfico Burndown de sprint?
 5. Qual a limitação do Burndown no acompanhamento de mudanças de escopo?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Linha ideal:** Representa a taxa teórica linear de queima de trabalho restante por dia necessária para zerar todo o escopo no último dia da sprint.
+    2. **Linha real acima da ideal:** Indica atraso na sprint — o trabalho restante está sendo concluído mais devagar do que o planejado ou histórias adicionais foram inseridas no meio da sprint.
+    3. **Efeito Abismo:** Quando o gráfico permanece horizontal/alto durante quase toda a sprint e despenca de vez apenas no último dia, indicando falta de validações parciais diárias.
+    4. **Eixos do gráfico:** Eixo X (Dias do Cronograma / Sprint) e Eixo Y (Trabalho Restante em Story Points ou Horas).
+    5. **Limitação sobre escopo:** O Burndown mostra apenas o saldo líquido restante; se o escopo total aumentar durante a sprint, a linha sobe dando a impressão errônea de que a equipe não trabalhou naquele dia.
+
 ---
 
 ## 📚 Referências utilizadas

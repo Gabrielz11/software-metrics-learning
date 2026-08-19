@@ -49,6 +49,13 @@ graph TD
 4. Dê um exemplo de como a medição transforma uma afirmação vaga em um indicador concreto.
 5. Qual o papel das linhas de base históricas para a melhoria de processos?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Quatro pilares de Basili:** Compreender (*Understand*), Avaliar (*Assess*), Controlar (*Control*) e Melhora (*Improve*).
+    2. **Controle de desvios:** A medição contínua compara os valores reais acumulados (prazo, custo, defeitos) contra a linha de base planejada, permitindo identificar variações antecipadamente e aplicar ações corretivas.
+    3. **Medição sem uso:** Cria burocracia desnecessária, desperdiça tempo da equipe de desenvolvimento e gera desmotivação quanto ao programa de métricas (síndrome de "dados no gaveteiro").
+    4. **Afirmação vaga vs. Indicador concreto:** Mudar "O sistema está lento" para "O tempo médio de resposta no checkout é de 4,2 segundos (Meta: < 2,0s)".
+    5. **Linhas de base históricas:** Servem como ponto de referência empírico para comparar se uma alteração em processo/ferramenta trouxe melhorias reais e mensuráveis com o passar do tempo.
+
 ---
 
 ## 📚 Referências utilizadas

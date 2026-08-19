@@ -30,6 +30,13 @@ $$\text{Taxa de Esforço} = \frac{500}{53} \approx 9.43\text{ horas/PF}$$
 4. Como varia a taxa de h/PF dependendo da tecnologia ou maturidade da equipe?
 5. Qual a diferença de interpretar 0.1 PF/hora vs 10 horas/PF?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Horas por Ponto de Função (h/PF):** É a taxa de esforço médio necessário para que a equipe especifique, desenvolva, teste e entregue 1 Ponto de Função de tamanho funcional.
+    2. **Estimativa para 80 PF:** $80 \text{ PF} \times 10 \text{ h/PF} = 800 \text{ horas-pessoa}$.
+    3. **Vantagem de PF/hora sobre LOC/hora:** PF/hora mede entregas de valor de negócio reais e é independente da linguagem de programação, enquanto LOC/hora penaliza linguagens modernas de alto nível.
+    4. **Variação por maturidade/tecnologia:** Equipes sênior ou utilizando frameworks modernos possuem taxas menores de h/PF (ex: 6 a 8 h/PF), enquanto equipes júnior ou em stacks legadas exigem mais horas por PF (ex: 15 a 20 h/PF).
+    5. **0.1 PF/h vs 10 h/PF:** São representações inversas do mesmo ritmo de trabalho ($\frac{1}{10} = 0,1$); 0.1 PF/h expressa a entrega funcional por unidade de tempo e 10 h/PF expressa a quantidade de tempo necessária para 1 unidade funcional.
+
 ---
 
 ## 📚 Referências utilizadas

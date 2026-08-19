@@ -33,6 +33,13 @@ $$\text{GOAL} \longrightarrow \text{QUESTION} \longrightarrow \text{INDICATOR} \
 4. Qual a direção do fluxo de planejamento no GQM (top-down ou bottom-up)?
 5. Quem é o autor principal do paradigma GQM?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Três níveis da hierarquia GQM:** Nível Conceitual (Objetivo / *Goal*), Nível Operacional (Perguntas / *Questions*) e Nível Quantitativo (Métricas / *Metrics*).
+    2. **Prevenção de métricas inúteis:** Porque obriga que cada métrica seja derivada estritamente de uma pergunta necessária para avaliar o cumprimento de um objetivo de negócio previamente estabelecido.
+    3. **Modelo GQIM do SEI:** Adiciona o nível **Indicador** (GQIM: *Goal-Question-Indicator-Metric*), destacando visualizações e painéis de tomada de decisão.
+    4. **Direção do fluxo:** O planejamento é **Top-Down** (do Objetivo geral para as Perguntas e destas para as Métricas). A interpretação dos dados coletados é **Bottom-Up** (das Métricas para responder às Perguntas e concluir o Objetivo).
+    5. **Autor principal:** Victor R. Basili (Universidade de Maryland e NASA SEL).
+
 ---
 
 ## 📚 Referências utilizadas

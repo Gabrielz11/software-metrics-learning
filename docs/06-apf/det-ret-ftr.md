@@ -49,6 +49,13 @@ Funções Transacionais (EE / SE / CE) ──────► DET + FTR
 4. Quais elementos de contagem são usados para determinar a complexidade de uma Entrada Externa (EE)?
 5. Se uma transação lê 2 ALIs e 1 AIE, quantos FTRs ela possui?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **DET (Data Element Type):** É um campo único, não repetitivo, reconhecido pelo usuário. Em uma tela, conta-se cada campo de entrada, botão de ação acionável (ex: Salvar) ou mensagem de erro/confirmação.
+    2. **RET vs. FTR:** RET (*Record Element Type*) é um subgrupo lógico de dados dentro de um ALI/AIE. FTR (*File Type Referenced*) é um tipo de arquivo (ALI ou AIE) lido ou mantido por uma transação (EE, SE ou CE).
+    3. **Complexidade de ALI:** Determinada pelo número de RETs e número de DETs.
+    4. **Complexidade de EE:** Determinada pelo número de FTRs e número de DETs.
+    5. **Cálculo de FTRs:** $2 \text{ ALIs} + 1 \text{ AIE} = 3 \text{ FTRs}$.
+
 ---
 
 ## 📚 Referências utilizadas

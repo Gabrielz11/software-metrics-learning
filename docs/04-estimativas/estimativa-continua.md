@@ -39,6 +39,13 @@ Desenvolvimento / Sprints ──► Re-estimativa por Dados Históricos / Veloci
 4. Por que a estimativa deve ser atualizada em cada nova fase do projeto?
 5. Qual é o erro de tentar travar o orçamento na fase de concepção sem prever faixas de incerteza?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Cone da Incerteza:** Ilustra como o grau de incerteza e a variação potencial das estimativas diminuem à medida que o projeto avança e as decisões de requisitos, arquitetura e design são consolidadas.
+    2. **Variabilidade inicial (4x / 0.25x):** No início (fase de concepção), os requisitos são vagos, o escopo não está detalhado e as escolhas tecnológicas ainda não foram validadas.
+    3. **Após arquitetura:** A margem de erro se reduz drasticamente (ficando tipicamente entre $\pm 15\%$ a $\pm 20\%$), pois os componentes principais e riscos técnicos já foram mapeados.
+    4. **Atualização contínua:** Conforme a incerteza diminui, novas informações reais surgem, permitindo refinar o planejamento e o orçamento com maior precisão.
+    5. **Erro de travar orçamento cedo:** Tratar estimativas iniciais de alta incerteza como compromissos fixos leva a estouros inevitáveis de prazo/custo ou ao corte drástico da qualidade para cumprir contratos rígidos.
+
 ---
 
 ## 📚 Referências utilizadas

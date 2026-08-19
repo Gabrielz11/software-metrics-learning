@@ -31,6 +31,13 @@ $$\text{Esforço Estimado UCP} = 52.77 \times 20 = 1.055.4\text{ Horas}$$
 4. Como calibrar o fator de produtividade h/UCP para aderir ao histórico da empresa?
 5. Qual a relação entre a contagem de 53 PF e a contagem de 52.77 UCP no mesmo projeto?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **UCP Calculados:** 52,77 UCP.
+    2. **Estimativa padrão Karner:** $52,77 \times 20 = 1.055,4 \text{ horas-pessoa}$.
+    3. **Diferença entre 1.055h e 500h:** O fator padrão original de Karner (20h/UCP) foi estabelecido em 1993 com ferramentas antigas; equipes modernas com alta produtividade/automação gastam menos horas por ponto (no caso real, a equipe operou a aproximadamente $9,47 \text{ h/UCP}$).
+    4. **Calibração de h/UCP:** Registrar as horas reais dos últimos projetos da empresa e dividir pelo total de UCPs entregues, substituindo a constante 20 pela média própria da empresa (ex: 9.5 h/UCP).
+    5. **Relação APF (53 PF) vs. UCP (52.77 UCP):** Demonstra que ambos os métodos chegaram a mensurações de tamanho funcional praticamente idênticas para a mesma especificação de negócio.
+
 ---
 
 ## 📚 Referências utilizadas

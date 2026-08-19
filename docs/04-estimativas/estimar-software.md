@@ -22,6 +22,16 @@ Estimar é produzir um intervalo de valores esperados (ex: "entre 400 e 500 hora
 4. Como a falta de dados históricos compromete a qualidade da estimativa?
 5. Qual é o papel da medição no aprimoramento das estimativas futuras?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Intervalos:** Porque o desenvolvimento de software contém incertezas inerentes. Um intervalo (ex: 3 a 5 meses) expressa probabilisticamente a faixa realista de resultados.
+    2. **Fatores desafiadores:** Requisitos voláteis/incompletos, constante evolução tecnológica e subjetividade na produtividade humana.
+    3. **Estimativa vs. Meta vs. Compromisso:**
+       - *Estimativa:* Previsão probabilística fundamentada em dados.
+       - *Meta:* Desejo de negócio ou objetivo estratégico (ex: "lançar até o Natal").
+       - *Compromisso:* Data acordada formalmente para entrega de um escopo específico.
+    4. **Falta de dados históricos:** Obriga o estimador a confiar em palpites subjetivos, aumentando drasticamente o risco de erros sistemáticos de subestimativa.
+    5. **Papel da medição:** Registrar os valores reais de projetos concluídos para calibrar os modelos de estimativa e reduzir a margem de erro nos próximos projetos.
+
 ---
 
 ## 📚 Referências utilizadas

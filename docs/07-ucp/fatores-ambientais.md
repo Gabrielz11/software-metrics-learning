@@ -34,6 +34,13 @@ $$\text{ECF} = 1.4 + \left( -0.03 \times \sum_{j=1}^{8} (w_j \times \text{Nota}_
 4. O que acontece com a estimativa final em UCP quando a equipe possui alta maturidade e experiência?
 5. Qual a faixa de avaliação de cada fator ambiental?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Quantidade de fatores ambientais:** 8 fatores (E1 a E8).
+    2. **Pesos negativos em E7 e E8:** E7 (Pessoal em tempo parcial) e E8 (Linguagem de programação difícil) representam riscos/dificuldades operacionais; notas altas nesses itens reduzem a eficiência da equipe e aumentam o valor final do ECF (e consequentemente aumentam as horas estimadas).
+    3. **Fator E6 de maior peso positivo:** E6 (Estabilidade dos Requisitos - Peso 2.0).
+    4. **Equipe com alta maturidade:** Notas altas em fatores positivos (ex: experiência em UML, conhecimento do domínio) reduzem o multiplicador ECF para valores abaixo de 1.0, reduzindo o valor final de UCPs estimados.
+    5. **Faixa de avaliação:** De 0 (baixo/ausente) a 5 (alto/pleno).
+
 ---
 
 ## 📚 Referências utilizadas

@@ -27,6 +27,14 @@ A **Cobertura de Testes** (*Test Coverage*) quantifica a proporção da estrutur
 4. Escreva a equação de cálculo de cobertura de linhas.
 5. Qual a ferramenta padrão em Python para medir cobertura em testes com pytest?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Cobertura de linhas:** Mede a porcentagem de linhas de código executáveis (SLOC) que foram exercitadas pelo menos uma vez durante a execução da suíte de testes automatizados.
+    2. **Statement Coverage vs. Branch Coverage:** *Statement Coverage* verifica se cada linha/instrução foi executada. *Branch Coverage* verifica se cada ramificação condicional (cada caminho verdadeiro e falso de um `if`/`switch`) foi percorrida.
+    3. **100% de cobertura vs. Ausência de defeitos:** Porque a cobertura valida apenas o código que foi escrito, não testando requisitos esquecidos, regras de negócio incorretas, dados nulos inesperados ou problemas de concorrência.
+    4. **Equação de cobertura de linhas:**
+       $$\text{Cobertura (\%)} = \left( \frac{\text{Linhas Executadas pelos Testes}}{\text{Total de Linhas Executáveis}} \right) \times 100\%$$
+    5. **Ferramenta em Python:** `pytest-cov` (baseada na biblioteca `coverage.py`).
+
 ---
 
 ## 📚 Referências utilizadas

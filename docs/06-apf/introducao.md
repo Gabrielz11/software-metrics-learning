@@ -33,6 +33,13 @@ flowchart TD
 4. Qual a premissa de medição sob a visão do usuário?
 5. Em quais momentos do desenvolvimento a APF pode ser realizada?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Criador:** Allan J. Albrecht (na IBM, em 1979).
+    2. **Organização internacional:** IFPUG (*International Function Point Users Group*).
+    3. **Independência de linguagem:** Porque mede o tamanho das funcionalidades fornecidas ao usuário com base em seus requisitos de negócio, independentemente de se usar Java, Python, C# ou Cobol para implementar.
+    4. **Visão do usuário:** Avalia o software sob a perspectiva externa daquilo que o usuário solicita e reconhece (entradas, saídas, consultas e arquivos mantidos), ignorando detalhes de implementação técnica.
+    5. **Momentos de aplicação:** Desde a fase inicial de requisitos/orçamento (estimativa), passando pelo acompanhamento do projeto, até o produto final instalado (mensuração de aplicações legadas).
+
 ---
 
 ## 📚 Referências utilizadas

@@ -39,6 +39,14 @@ flowchart TD
 4. Escreva a equação de cálculo do UUCP.
 5. Qual o fator padrão de conversão de UCP para horas proposto originalmente por Karner?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Criador do UCP:** Gustav Karner (em 1993, na Objectory AB).
+    2. **Artefato base:** A especificação de Casos de Uso (diagramas e descrições detalhadas de fluxos de atores e cenários).
+    3. **Quatro variáveis principais:** UAW (*Unadjusted Actor Weight*), UUCW (*Unadjusted Use Case Weight*), TCF (*Technical Complexity Factor*) e ECF (*Environmental Complexity Factor*).
+    4. **Equação do UUCP:**
+       $$\text{UUCP} = \text{UAW} + \text{UUCW}$$
+    5. **Fator padrão de Karner:** 20 horas-pessoa por UCP.
+
 ---
 
 ## 📚 Referências utilizadas

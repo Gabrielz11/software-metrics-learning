@@ -36,6 +36,13 @@ flowchart TD
 4. Qual técnica deve ser evitada no início do projeto para estimar esforço de desenvolvimento do zero?
 5. Como a maturidade dos requisitos condiciona a escolha da técnica de estimativa?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Recomendação com Casos de Uso:** UCP (Use Case Points).
+    2. **APF vs. LOC e Linguagem:** A APF mede requisitos funcionais sob a perspectiva do usuário (funções de dados e transações), enquanto o LOC mede o volume físico de linhas escritas, variando drasticamente de acordo com a verbosidade de cada linguagem.
+    3. **Velocidade da Analogia:** Nas fases iniciais de estudo de viabilidade, quando não há tempo ou detalhes suficientes para contagens funcionais minuciosas (APF/UCP).
+    4. **Técnica a evitar no início:** Estimativa baseada puramente em LOC (linhas de código), pois o código-fonte ainda não existe e a variabilidade de estimar contagem física antecipada é gigantesca.
+    5. **Maturidade dos requisitos:** Requisitos vagos exigem estimativas por Analogia ou faixas amplas; requisitos funcionais definidos permitem APF/UCP; especificações técnicas detalhadas ou refatorações permitem estimativas baseadas em LOC ou modelos algorítmicos.
+
 ---
 
 ## 📚 Referências utilizadas

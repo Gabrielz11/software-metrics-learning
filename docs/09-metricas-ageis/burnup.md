@@ -30,6 +30,13 @@ Enquanto o Burndown esconde se um atraso decorre de lentidão da equipe ou de **
 4. Quais são as duas linhas principais plotadas em um gráfico Burnup?
 5. Em que tipo de projeto o Burnup é preferível ao Burndown?
 
+??? check "Mostrar Gabarito / Resposta"
+    1. **Vantagem do Burnup:** Separa claramente o crescimento do escopo total da quantidade real de trabalho entregue acumulado.
+    2. **Visualização do Scope Creep:** Exibida pelo desvio ascendente ou degraus na linha superior de escopo total (*Total Scope Line*).
+    3. **Cruzamento das linhas:** Significa que 100% do escopo planejado para o projeto/release foi concluído.
+    4. **Duas linhas principais:** A linha de **Escopo Total** (*Total Scope*) e a linha de **Trabalho Concluído Acumulado** (*Work Completed*).
+    5. **Projeto preferível:** Projetos de longo prazo ou releases dinâmicas onde o escopo sofre constantes adições ou alterações por decisões de produto.
+
 ---
 
 ## 📚 Referências utilizadas
