@@ -1,7 +1,7 @@
 site_name: Métricas de Software — Medição, Estimativas e Qualidade
 site_description: Um repositório educacional para aprender métricas, medição, estimativas, qualidade e produtividade em Engenharia de Software.
 site_author: Comunidade Software Metrics Learning
-repo_url: https://github.com/software-metrics-learning
+repo_url: https://github.com/Gabrielz11/software-metrics-learning
 repo_name: software-metrics-learning
 
 theme:
@@ -56,110 +56,115 @@ extra_javascript:
 
 nav:
   - Início: index.md
-  - 01. Fundamentos:
-      - Visão Geral: 01-fundamentos/index.md
-      - O que são Métricas?: 01-fundamentos/o-que-sao-metricas.md
-      - Por que Medir?: 01-fundamentos/por-que-medir.md
-      - Medida, Métrica e Indicador: 01-fundamentos/medida-metrica-indicador.md
-      - Métricas Diretas e Indiretas: 01-fundamentos/metricas-diretas-indiretas.md
-  - 02. Tipos de Métricas:
-      - Visão Geral: 02-tipos-de-metricas/index.md
-      - Métricas de Produto: 02-tipos-de-metricas/metricas-produto.md
-      - Métricas de Processo: 02-tipos-de-metricas/metricas-processo.md
-      - Métricas de Projeto: 02-tipos-de-metricas/metricas-projeto.md
-      - Comparativo: 02-tipos-de-metricas/comparativo.md
-  - 03. Dimensões:
-      - Visão Geral: 03-dimensoes/index.md
-      - Tamanho: 03-dimensoes/tamanho.md
-      - Esforço: 03-dimensoes/esforco.md
-      - Prazo: 03-dimensoes/prazo.md
-      - Custo: 03-dimensoes/custo.md
-      - Qualidade: 03-dimensoes/qualidade.md
-      - Produtividade: 03-dimensoes/produtividade.md
-  - 04. Estimativas:
-      - Visão Geral: 04-estimativas/index.md
-      - Estimar Software: 04-estimativas/estimar-software.md
-      - Estimativa Contínua: 04-estimativas/estimativa-continua.md
-      - Conhecimento Técnico e Domínio: 04-estimativas/conhecimento-tecnico-dominio.md
-      - Estimativa por Analogia: 04-estimativas/analogia.md
-      - Comparação de Técnicas: 04-estimativas/comparacao-tecnicas.md
-  - 05. LOC (Lines of Code):
-      - Visão Geral: 05-loc/index.md
-      - Conceito: 05-loc/conceito.md
-      - Como Contar: 05-loc/como-contar.md
-      - Exemplos: 05-loc/exemplos.md
-      - Produtividade em LOC: 05-loc/produtividade.md
-      - Limitações: 05-loc/limitacoes.md
-  - 06. APF (Pontos de Função):
-      - Visão Geral: 06-apf/index.md
-      - Introdução: 06-apf/introducao.md
-      - Conceitos IFPUG: 06-apf/conceitos.md
-      - Processo de Contagem: 06-apf/processo-de-contagem.md
-      - Funções de Dados: 06-apf/funcoes-dados.md
-      - Funções Transacionais: 06-apf/funcoes-transacao.md
-      - DET, RET e FTR: 06-apf/det-ret-ftr.md
-      - Complexidade Funcional: 06-apf/complexidade.md
-      - Cálculo e Pesos: 06-apf/calculo.md
-      - Exemplo Completo: 06-apf/exemplo-completo.md
-      - Produtividade em APF: 06-apf/produtividade.md
-      - Vantagens e Limitações: 06-apf/vantagens-limitacoes.md
-  - 07. UCP (Use Case Points):
-      - Visão Geral: 07-ucp/index.md
-      - Conceito: 07-ucp/conceito.md
-      - Classificação de Atores: 07-ucp/atores.md
-      - Classificação de Casos de Uso: 07-ucp/casos-de-uso.md
-      - Fatores Técnicos (TCF): 07-ucp/fatores-tecnicos.md
-      - Fatores Ambientais (ECF): 07-ucp/fatores-ambientais.md
-      - Cálculo Completo: 07-ucp/calculo.md
-      - Exemplo Prático: 07-ucp/exemplo.md
-  - 08. Qualidade de Software:
-      - Visão Geral: 08-qualidade/index.md
-      - Conceitos de Qualidade: 08-qualidade/qualidade-software.md
-      - Modelo ISO/IEC 25010:2023: 08-qualidade/iso-25010.md
-      - Defeitos: 08-qualidade/defeitos.md
-      - Densidade de Defeitos: 08-qualidade/densidade-defeitos.md
-      - Cobertura de Testes: 08-qualidade/cobertura-testes.md
-      - Complexidade Ciclomática: 08-qualidade/complexidade-ciclomatica.md
-      - Indicadores de Qualidade: 08-qualidade/indicadores-qualidade.md
-  - 09. Métricas Ágeis:
-      - Visão Geral: 09-metricas-ageis/index.md
-      - Velocity: 09-metricas-ageis/velocity.md
-      - Lead Time: 09-metricas-ageis/lead-time.md
-      - Cycle Time: 09-metricas-ageis/cycle-time.md
-      - Throughput: 09-metricas-ageis/throughput.md
-      - Burndown: 09-metricas-ageis/burndown.md
-      - Burnup: 09-metricas-ageis/burnup.md
-  - 10. GQM (Goal-Question-Metric):
-      - Visão Geral: 10-gqm/index.md
-      - Conceito: 10-gqm/conceito.md
-      - Definição do Objetivo (Goal): 10-gqm/goal.md
-      - Elaboração de Perguntas (Question): 10-gqm/question.md
-      - Métricas Derivadas (Metric): 10-gqm/metric.md
-      - Exemplos Práticos: 10-gqm/exemplos.md
-  - 11. Estudo de Caso Central:
-      - Visão Geral: 11-estudo-de-caso/index.md
-      - Especificação de Requisitos: 11-estudo-de-caso/requisitos.md
-      - Medição em LOC: 11-estudo-de-caso/loc.md
-      - Medição em APF: 11-estudo-de-caso/apf.md
-      - Medição em UCP: 11-estudo-de-caso/ucp.md
-      - Avaliação de Qualidade: 11-estudo-de-caso/qualidade.md
-      - Análise de Produtividade: 11-estudo-de-caso/produtividade.md
-      - Comparação Final: 11-estudo-de-caso/comparacao-final.md
-  - 12. Exercícios:
-      - Visão Geral: 12-exercicios/index.md
-      - Fundamentos: 12-exercicios/fundamentos.md
-      - LOC: 12-exercicios/loc.md
-      - APF: 12-exercicios/apf.md
-      - UCP: 12-exercicios/ucp.md
-      - Qualidade: 12-exercicios/qualidade.md
-      - GQM: 12-exercicios/gqm.md
-  - 13. Respostas:
-      - Visão Geral: 13-respostas/index.md
-      - Fundamentos: 13-respostas/fundamentos.md
-      - LOC: 13-respostas/loc.md
-      - APF: 13-respostas/apf.md
-      - UCP: 13-respostas/ucp.md
-      - Qualidade: 13-respostas/qualidade.md
-      - GQM: 13-respostas/gqm.md
-  - 14. Glossário: 14-glossario/index.md
-  - Referências Bibliográficas: referencias.md
+  - Fundamentos & Conceitos:
+      - 01. Fundamentos:
+          - Visão Geral: 01-fundamentos/index.md
+          - O que são Métricas?: 01-fundamentos/o-que-sao-metricas.md
+          - Por que Medir?: 01-fundamentos/por-que-medir.md
+          - Medida, Métrica e Indicador: 01-fundamentos/medida-metrica-indicador.md
+          - Métricas Diretas e Indiretas: 01-fundamentos/metricas-diretas-indiretas.md
+      - 02. Tipos de Métricas:
+          - Visão Geral: 02-tipos-de-metricas/index.md
+          - Métricas de Produto: 02-tipos-de-metricas/metricas-produto.md
+          - Métricas de Processo: 02-tipos-de-metricas/metricas-processo.md
+          - Métricas de Projeto: 02-tipos-de-metricas/metricas-projeto.md
+          - Comparativo: 02-tipos-de-metricas/comparativo.md
+      - 03. Dimensões:
+          - Visão Geral: 03-dimensoes/index.md
+          - Tamanho: 03-dimensoes/tamanho.md
+          - Esforço: 03-dimensoes/esforco.md
+          - Prazo: 03-dimensoes/prazo.md
+          - Custo: 03-dimensoes/custo.md
+          - Qualidade: 03-dimensoes/qualidade.md
+          - Produtividade: 03-dimensoes/produtividade.md
+      - 04. Estimativas:
+          - Visão Geral: 04-estimativas/index.md
+          - Estimar Software: 04-estimativas/estimar-software.md
+          - Estimativa Contínua: 04-estimativas/estimativa-continua.md
+          - Conhecimento Técnico e Domínio: 04-estimativas/conhecimento-tecnico-dominio.md
+          - Estimativa por Analogia: 04-estimativas/analogia.md
+          - Comparação de Técnicas: 04-estimativas/comparacao-tecnicas.md
+  - Técnicas de Medição:
+      - 05. LOC (Lines of Code):
+          - Visão Geral: 05-loc/index.md
+          - Conceito: 05-loc/conceito.md
+          - Como Contar: 05-loc/como-contar.md
+          - Exemplos: 05-loc/exemplos.md
+          - Produtividade em LOC: 05-loc/produtividade.md
+          - Limitações: 05-loc/limitacoes.md
+      - 06. APF (Pontos de Função):
+          - Visão Geral: 06-apf/index.md
+          - Introdução: 06-apf/introducao.md
+          - Conceitos IFPUG: 06-apf/conceitos.md
+          - Processo de Contagem: 06-apf/processo-de-contagem.md
+          - Funções de Dados: 06-apf/funcoes-dados.md
+          - Funções Transacionais: 06-apf/funcoes-transacao.md
+          - DET, RET e FTR: 06-apf/det-ret-ftr.md
+          - Complexidade Funcional: 06-apf/complexidade.md
+          - Cálculo e Pesos: 06-apf/calculo.md
+          - Exemplo Completo: 06-apf/exemplo-completo.md
+          - Produtividade em APF: 06-apf/produtividade.md
+          - Vantagens e Limitações: 06-apf/vantagens-limitacoes.md
+      - 07. UCP (Use Case Points):
+          - Visão Geral: 07-ucp/index.md
+          - Conceito: 07-ucp/conceito.md
+          - Classificação de Atores: 07-ucp/atores.md
+          - Classificação de Casos de Uso: 07-ucp/casos-de-uso.md
+          - Fatores Técnicos (TCF): 07-ucp/fatores-tecnicos.md
+          - Fatores Ambientais (ECF): 07-ucp/fatores-ambientais.md
+          - Cálculo Completo: 07-ucp/calculo.md
+          - Exemplo Prático: 07-ucp/exemplo.md
+  - Qualidade & Métricas Ágeis:
+      - 08. Qualidade de Software:
+          - Visão Geral: 08-qualidade/index.md
+          - Conceitos de Qualidade: 08-qualidade/qualidade-software.md
+          - Modelo ISO/IEC 25010:2023: 08-qualidade/iso-25010.md
+          - Defeitos: 08-qualidade/defeitos.md
+          - Densidade de Defeitos: 08-qualidade/densidade-defeitos.md
+          - Cobertura de Testes: 08-qualidade/cobertura-testes.md
+          - Complexidade Ciclomática: 08-qualidade/complexidade-ciclomatica.md
+          - Indicadores de Qualidade: 08-qualidade/indicadores-qualidade.md
+      - 09. Métricas Ágeis:
+          - Visão Geral: 09-metricas-ageis/index.md
+          - Velocity: 09-metricas-ageis/velocity.md
+          - Lead Time: 09-metricas-ageis/lead-time.md
+          - Cycle Time: 09-metricas-ageis/cycle-time.md
+          - Throughput: 09-metricas-ageis/throughput.md
+          - Burndown: 09-metricas-ageis/burndown.md
+          - Burnup: 09-metricas-ageis/burnup.md
+      - 10. GQM (Goal-Question-Metric):
+          - Visão Geral: 10-gqm/index.md
+          - Conceito: 10-gqm/conceito.md
+          - Definição do Objetivo (Goal): 10-gqm/goal.md
+          - Elaboração de Perguntas (Question): 10-gqm/question.md
+          - Métricas Derivadas (Metric): 10-gqm/metric.md
+          - Exemplos Práticos: 10-gqm/exemplos.md
+  - Estudo de Caso & Exercícios:
+      - 11. Estudo de Caso Central:
+          - Visão Geral: 11-estudo-de-caso/index.md
+          - Especificação de Requisitos: 11-estudo-de-caso/requisitos.md
+          - Medição em LOC: 11-estudo-de-caso/loc.md
+          - Medição em APF: 11-estudo-de-caso/apf.md
+          - Medição em UCP: 11-estudo-de-caso/ucp.md
+          - Avaliação de Qualidade: 11-estudo-de-caso/qualidade.md
+          - Análise de Produtividade: 11-estudo-de-caso/produtividade.md
+          - Comparação Final: 11-estudo-de-caso/comparacao-final.md
+      - 12. Exercícios:
+          - Visão Geral: 12-exercicios/index.md
+          - Fundamentos: 12-exercicios/fundamentos.md
+          - LOC: 12-exercicios/loc.md
+          - APF: 12-exercicios/apf.md
+          - UCP: 12-exercicios/ucp.md
+          - Qualidade: 12-exercicios/qualidade.md
+          - GQM: 12-exercicios/gqm.md
+      - 13. Respostas:
+          - Visão Geral: 13-respostas/index.md
+          - Fundamentos: 13-respostas/fundamentos.md
+          - LOC: 13-respostas/loc.md
+          - APF: 13-respostas/apf.md
+          - UCP: 13-respostas/ucp.md
+          - Qualidade: 13-respostas/qualidade.md
+          - GQM: 13-respostas/gqm.md
+  - Glossário & Referências:
+      - 14. Glossário: 14-glossario/index.md
+      - Referências Bibliográficas: referencias.md
