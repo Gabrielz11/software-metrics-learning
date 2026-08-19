@@ -1,8 +1,9 @@
 site_name: Métricas de Software — Medição, Estimativas e Qualidade
 site_description: Um repositório educacional para aprender métricas, medição, estimativas, qualidade e produtividade em Engenharia de Software.
 site_author: Comunidade Software Metrics Learning
+site_url: https://Gabrielz11.github.io/software-metrics-learning/
 repo_url: https://github.com/Gabrielz11/software-metrics-learning
-repo_name: software-metrics-learning
+repo_name: Gabrielz11/software-metrics-learning
 
 theme:
   name: material
