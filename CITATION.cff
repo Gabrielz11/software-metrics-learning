@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Métricas de Software — Medição, Estimativas e Qualidade"
+message: "Se você utilizar este repositório educacional em seus estudos ou pesquisas, por favor cite-o conforme abaixo."
+type: dataset
+authors:
+  - family-names: "Comunidade"
+    given-names: "Software Metrics Learning"
+repository-code: "https://github.com/software-metrics-learning"
+keywords:
+  - software engineering
+  - software metrics
+  - function point analysis
+  - use case points
+  - GQM
+  - quality
+license: MIT
+version: 1.0.0
+date-released: 2026-08-19
